@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="0dp"
+        app:cardCornerRadius="6dp"
+        android:layout_margin="10dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundsmall_bgwhite_top"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_upload"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:padding="15dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/my_favorites" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:textSize="16sp"
+                    android:textColor="#000"
+                    android:text="菜单1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_compete"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:padding="15dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/my_help_and_feedback" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:textSize="16sp"
+                    android:textColor="#000"
+                    android:text="菜单2"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_scancode"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:padding="15dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/my_historical_record" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:textSize="16sp"
+                    android:textColor="#000"
+                    android:text="菜单3"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_take_upload"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:padding="15dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/my_help_and_feedback" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:textSize="16sp"
+                    android:textColor="#000"
+                    android:text="菜单4"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
